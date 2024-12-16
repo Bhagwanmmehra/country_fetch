@@ -50,7 +50,7 @@ body {
     gap:2rem;
 }
 
-.country_card{
+.country__card{
     background-color: #f1f3f5;
     padding: 2rem;
     border-radius: 1rem;
@@ -58,7 +58,7 @@ body {
     position: relative;
 }
 
-.country_card .token{
+.country__card .token{
 position: absolute;
 top:-2rem;
 right:2rem;
@@ -67,7 +67,7 @@ background-color: #e67700;
 padding: 0.5 rem 1rem;
 }
 
-.country_card .country_card_img{
+.country__card .country__img{
     height: 25rem;
     border-radius: 0.5rem;
     padding-bottom: 2rem;
@@ -75,18 +75,18 @@ padding: 0.5 rem 1rem;
     
 }
 
-.country_data{
+.country__data{
     display: flex;
     flex-direction: column;
     gap:1rem;
 }
 
 
-.country_card .country_region {
+.country__card .country__region {
     margin-bottom: 2rem;
 }
 
-.country_card .country_row span {
+.country__card .country__row span {
     padding-right:1rem;
 }
 
